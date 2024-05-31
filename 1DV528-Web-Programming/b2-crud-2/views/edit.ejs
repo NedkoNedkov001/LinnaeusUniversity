@@ -1,0 +1,14 @@
+      <form id="snippet-form" action="/snippet/edit" method="post">
+        <h2>Edit snippet</h2>
+        <div class="form-input">
+          <label for="progLang">Language:</label>
+          <input type="text" id="progLang" name="progLang" value=<%=`${snippet.progLang}`%> required />
+        </div>
+        <div class="form-input">
+          <label for="codeStr">Code:</label>
+          <textarea name="codeStr" id="codeStr" placeholder="Code" required><%=`${snippet.codeStr}`%></textarea>
+        </div>
+        <input type="hidden" name="id" value="<%=`${snippet._id}`%>" />
+
+        <button class="button" type="submit">Edit Snippet</button>
+      </form>

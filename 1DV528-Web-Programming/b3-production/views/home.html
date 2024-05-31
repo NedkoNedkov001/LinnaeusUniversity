@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/public/css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/a3d546e7b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+        </ul>
+        <ul>
+          <li><a href="/">Issues</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content-wrapper">
+      <div class="status-filters">
+        <a href="/issues/open">Open <span class="total-number-span">3</span></a>
+        <a href="/issues/closed"
+          >Closed <span class="total-number-span">0</span></a
+        >
+        <a href="/issues/all">All <span class="total-number-span">3</span></a>
+      </div>
+      <hr />
+      <div class="search">
+        <input type="text" />
+        <div class="button"><i class="fa-solid fa-magnifying-glass"></i></div>
+      </div>
+      <hr />
+      <div class="issues">
+        <ul>
+          <li>
+            <div class="issue">
+              <div class="issue-line-one">
+                <div class="issue-title">
+                  <i class="fa-solid fa-file"></i>
+                  <a href="/issue/3"><h3>Max Issue</h3></a>
+                </div>
+                <div class="issue-line-one-right">
+                  <div class="assignees">
+                    <ul class="assignees-list">
+                      <li class="assignee">
+                        <a href="/"
+                          ><img class="assignee-img"
+                            src="https://secure.gravatar.com/avatar/4bd60b1bdde98ee542f011029353b7be5876c943ae3cb5e47ec921b7fe89663c?s=80&d=identicon"
+                            title="Name Name"
+                        /></a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="issue-comments">
+                    <a href="/issue/3#comments"
+                      >0 <i class="fa-solid fa-comments"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="issue-line-two">
+                <div class="issue-info">
+                  <div>#3</div>
+                  <div><i class="fa-solid fa-calendar"></i> 13 Mar, 2024</div>
+                  <div><i class="fa-solid fa-weight-hanging"></i> 2</div>
+                </div>
+                <div class="issue-update">Updated just now</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="issue">
+              <div class="issue-line-one">
+                <div class="issue-title">
+                  <i class="fa-solid fa-file"></i>
+                  <a href="/issue/2"><h3>Issue</h3></a>
+                </div>
+                <div class="issue-comments">
+                  <a href="/issue/2#comments"
+                    >0 <i class="fa-solid fa-comments"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="issue-line-two">
+                <div class="issue-info">
+                  <div>#2</div>
+                  <div><i class="fa-solid fa-calendar"></i> 13 Mar, 2024</div>
+                  <div><i class="fa-solid fa-clock"></i> Milestone</div>
+                  <div><i class="fa-solid fa-weight-hanging"></i> 10</div>
+                </div>
+                <div class="issue-update">Updated 2 hours ago</div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="issue">
+              <div class="issue-line-one">
+                <div class="issue-title">
+                  <i class="fa-solid fa-file"></i>
+                  <a href="/issue/1"><h3>First issue</h3></a>
+                </div>
+                <div class="issue-comments">
+                  <a href="/issue/1#comments"
+                    >1 <i class="fa-solid fa-comments"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="issue-line-two">
+                <div class="issue-info">
+                  <div>#1</div>
+                  <div><i class="fa-solid fa-calendar"></i> 13 Mar, 2024</div>
+                </div>
+                <div class="issue-update">Updated 2 hours ago</div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>

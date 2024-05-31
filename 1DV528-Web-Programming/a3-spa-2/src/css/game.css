@@ -1,0 +1,87 @@
+.application-icon-game {
+  background-image: url("/img/cardsIcon.png");
+}
+
+.application-game-input-dimension {
+  width: 50px;
+}
+
+.application-game-dimensions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.application-game-cards-space {
+  display: grid;
+  grid-template-columns: auto;
+  gap: 6px;
+}
+
+.application-game-card {
+  width: 150px;
+  height: 150px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.application-game-card-unknown {
+  background-image: url("/img/gameCardUnknown.png");
+}
+
+.application-game-card-0 {
+  background-image: url("/img/gameCard1.png");
+}
+
+.application-game-card-1 {
+  background-image: url("/img/gameCard2.png");
+}
+
+.application-game-card-2 {
+  background-image: url("/img/gameCard3.png");
+}
+
+.application-game-card-3 {
+  background-image: url("/img/gameCard4.png");
+}
+
+.application-game-card-4 {
+  background-image: url("/img/gameCard5.png");
+}
+
+.application-game-card-5 {
+  background-image: url("/img/gameCard6.png");
+}
+
+.application-game-card-6 {
+  background-image: url("/img/gameCard7.png");
+}
+
+.application-game-card-7 {
+  background-image: url("/img/gameCard8.png");
+}
+
+.application-game-card-locked {
+  user-select: none;
+}
+
+.application-game-card-selected {
+  background-color: rgb(61, 78, 90);
+  transform: scale(1.1);
+}
+
+.application-game-bottom-menu {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+
+  font-size: 24px;
+}
+
+.application-game-bottom-menu-completed {
+  color: green;
+  font-weight: bold;
+  font-size: 26px;
+}

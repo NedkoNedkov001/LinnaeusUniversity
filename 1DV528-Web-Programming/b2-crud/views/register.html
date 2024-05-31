@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/public/css/header.css" />
+    <link rel="stylesheet" href="/public/css/form.css" />
+    <script
+      src="https://kit.fontawesome.com/a3d546e7b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="left-side">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/add">Add Snippet</a></li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <ul>
+          <li><a href="/">Login</a></li>
+          <li><span>/</span></li>
+          <li><a href="/add">Register</a></li>
+        </ul>
+      </div>
+    </header>
+    <main id="register">
+      <form action="register" method="post">
+        <h2>Register Form</h2>
+        <div class="register-field">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="register-field">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="register-field">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <button class="button" type="submit">Register</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

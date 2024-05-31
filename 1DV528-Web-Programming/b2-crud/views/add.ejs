@@ -1,0 +1,25 @@
+  <main id="snippet-add">
+    <form action="add" method="post">
+      <h2>Add Snippet</h2>
+      <div class="input-field">
+        <label for="snippetName">Name:</label>
+        <input type="text" id="snippetName" name="snippetName" maxlength="100" required />
+      </div>
+      <div class="input-field">
+        <label for="snippetLanguage">Language:</label>
+        <input type="text" id="snippetLanguage" name="snippetLanguage" maxlength="24" required />
+      </div>
+
+      <div class="input-field">
+        <label for="snippetDescription">Description:</label>
+        <textarea name="snippetDescription" id="snippetDescription" cols="30" rows="3" maxlength="300" ></textarea>
+      </div>
+
+      <div class="input-field">
+        <label for="snippet">Snippet:</label>
+        <textarea name="snippet" id="snippet" placeholder="Enter your code here..." cols="30" rows="10" required></textarea>
+      </div>
+
+    <button class="button" type="submit">Submit</button>
+    </form>
+  </main>

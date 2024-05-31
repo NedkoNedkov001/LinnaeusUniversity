@@ -1,0 +1,14 @@
+@media (max-width: 900px) {
+  #footer {
+    flex-direction: column;
+  }
+  main {
+    margin: 0%;
+  }
+}
+
+@media (max-width: 650px) {
+  #header > nav > ul {
+    flex-direction: column;
+  }
+}

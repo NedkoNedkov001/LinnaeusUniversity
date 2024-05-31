@@ -1,0 +1,62 @@
+#snippet-add {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  width: 90%;
+  height: fit-content;
+  padding: 20px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.snippet {
+  padding: 18px;
+  border-bottom: 1px solid var(--color-border);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.snippet-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.snippet-header a {
+  width: fit-content;
+}
+
+.snippet-header a h2 {
+  color: var(--color-hyperlink);
+}
+
+.snippet-header a:hover {
+  text-decoration: underline var(--color-hyperlink);
+}
+
+.snippet-header-details {
+  display: flex;
+  gap: 12px;
+}
+
+.snippet-language {
+  color: var(--color-green);
+  font-weight: bold;
+}
+
+.snippet-action {
+  display: flex;
+  padding: 32px 24px;
+  background-color: var(--color-highlight);
+}
+
+.snippet-action-language {
+  display: flex;
+  gap: 6px;
+}
+
+.snippet-action-language-input {
+  border-radius: 6px;
+  padding: 0px 6px;
+}

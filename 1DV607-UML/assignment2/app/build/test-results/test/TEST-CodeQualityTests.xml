@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CodeQualityTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-24T02:00:50" hostname="IMPERPC" time="0.067">
+  <properties/>
+  <testcase name="codeQuality()" classname="CodeQualityTests" time="0.067"/>
+  <system-out><![CDATA[0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/controller/App.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/controller/System.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/model/Contract.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/model/Item.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/model/Member.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/model/Register.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/model/Time.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/model/TimeChangedObserver.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/model/constants/Variables.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/model/enums/Category.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/ConsoleUi.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/EnglishUi.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/SwedishUi.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/constants/EnglishMenuConstants.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/constants/SwedishMenuConstants.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/enums/ContractCreateOption.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/enums/ContractMenuOption.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/enums/ItemEditMenuOption.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/enums/ItemMenuOption.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/enums/MainMenuOption.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/enums/MemberMenuOption.java
+0 CheckStyle Issues in D:/Me/University/1DV607 - UML/Assign2/a2/app/src/main/java/view/enums/TimeMenuOption.java
+0 FindBugs Issues in model/Time.java
+0 FindBugs Issues in model/TimeChangedObserver.java
+0 FindBugs Issues in view/enums/MainMenuOption.java
+0 FindBugs Issues in model/constants/Variables.java
+0 FindBugs Issues in model/Contract.java
+0 FindBugs Issues in view/ConsoleUi.java
+0 FindBugs Issues in view/enums/ContractMenuOption.java
+0 FindBugs Issues in view/EnglishUi.java
+0 FindBugs Issues in view/constants/EnglishMenuConstants.java
+0 FindBugs Issues in controller/System.java
+0 FindBugs Issues in model/enums/Category.java
+0 FindBugs Issues in model/Register.java
+0 FindBugs Issues in view/SwedishUi.java
+0 FindBugs Issues in model/Member.java
+0 FindBugs Issues in view/enums/ItemMenuOption.java
+0 FindBugs Issues in view/enums/MemberMenuOption.java
+0 FindBugs Issues in view/enums/ContractCreateOption.java
+0 FindBugs Issues in view/enums/ItemEditMenuOption.java
+0 FindBugs Issues in view/enums/TimeMenuOption.java
+0 FindBugs Issues in controller/App.java
+0 FindBugs Issues in view/constants/SwedishMenuConstants.java
+0 FindBugs Issues in model/Item.java
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

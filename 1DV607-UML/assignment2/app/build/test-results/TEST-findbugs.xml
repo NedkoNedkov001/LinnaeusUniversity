@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite package="org.spotbugs" time="0" tests="22" errors="0" name="findbugs">
+<testcase time="0" name="model/Time.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/TimeChangedObserver.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/enums/MainMenuOption.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/constants/Variables.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/Contract.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/ConsoleUi.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/enums/ContractMenuOption.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/EnglishUi.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/constants/EnglishMenuConstants.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/System.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/enums/Category.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/Register.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/SwedishUi.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/Member.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/enums/ItemMenuOption.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/enums/MemberMenuOption.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/enums/ContractCreateOption.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/enums/ItemEditMenuOption.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/enums/TimeMenuOption.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="controller/App.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="view/constants/SwedishMenuConstants.java" classname="FindBugs Issues">
+</testcase><testcase time="0" name="model/Item.java" classname="FindBugs Issues">
+</testcase></testsuite>

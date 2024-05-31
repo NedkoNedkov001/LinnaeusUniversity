@@ -1,0 +1,65 @@
+.chat-setup-div {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.chat-username-input {
+  height: 36px;
+}
+
+.messages-list-div {
+  height: 400px;
+  width: 100%;
+}
+
+.messages-list {
+  height: 96%;
+  padding: 0px;
+  text-align: left;
+  overflow-y: scroll;
+}
+
+.messages-list::-webkit-scrollbar {
+  width: 8px;
+  background-color: rgba(187, 198, 202, 0.26);
+}
+
+.messages-list::-webkit-scrollbar-thumb {
+  background-color: rgba(187, 198, 202, 0.596);
+  border-radius: 6px;
+}
+
+.chat-message {
+  padding: 5px 10px;
+  user-select: text;
+  overflow-wrap: break-word;
+}
+.chat-message:nth-child(even) {
+  background-color: rgba(151, 181, 193, 0.24);
+}
+
+.message-text-area {
+  height: 60px;
+  width: 100%;
+  background-color: rgb(151, 181, 193, 0.4);
+  font-size: 16px;
+
+  padding-left: 20px;
+  resize: none;
+  outline: none;
+}
+
+.chat-channel-div {
+  padding: 18px 0px;
+  border-bottom: 2px solid rgb(151, 181, 193, 0.4);
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.chat-channel-button {
+  padding: 0px 16px;
+}

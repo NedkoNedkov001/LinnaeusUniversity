@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: wheat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.centered {
+  background-color: rgb(246, 72, 72);
+  border: 2px solid black;
+  padding: 20px;
+  border-radius: 20px;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn {
+  margin-top: 20px;
+  padding: 10px 0px;
+  background-color: rgb(149, 204, 104);
+  border-radius: 15px;
+  cursor: pointer;
+}

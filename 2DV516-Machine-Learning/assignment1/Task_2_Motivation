@@ -1,0 +1,1 @@
+The k that gives the best regression should be k=3, since the average MSE error for both training and test is the lowest, at 24,813, followed by k=5, at 25,368

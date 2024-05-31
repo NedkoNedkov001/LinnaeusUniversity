@@ -1,0 +1,60 @@
+  <main id="main">
+    <div class="snippet-div">
+      <div class="snippet-action">
+        <ul>
+          <li><a class="button" href="/add">Add</a></li>
+        </ul>
+      </div>
+
+      <ul class="snippet-list">
+        <% for (let i = 0; i < snippets.length; i++) { %>
+        <li>
+          <div class="snippet">
+            <div class="snippet-header">
+              <a href="/view/<%=`${snippets[i]._id}`%>">
+                <h2><%=`${snippets[i].name}`%></h2>
+              </a>
+              <div class="snippet-header-details">
+                <p class="snippet-language">
+                  <i class="fa-solid fa-code"></i> <%=`${snippets[i].lang}`%>
+                </p>
+                <p><i class="fa-regular fa-user"></i> <%=`${snippets[i].author}`%></p>
+                <p><i class="fa-regular fa-clock"></i> <%=`${snippets[i].createdOn.year}/${snippets[i].createdOn.month}/${snippets[i].createdOn.day}`%></p>
+              </div>
+            </div>
+            <p>
+              <%=`${snippets[i].desc}`%>
+            </p>
+            <div class="snippet-actions">
+              <ul>
+                <li><a class="button" href="/view/<%=`${snippets[i]._id}`%>"><i class="fa-solid fa-eye"></i> View</a></li>
+                <% if (snippets[i].author === user.username) { %>
+                <li><a class="button" href="/edit/<%=`${snippets[i]._id}`%>"><i class="fa-regular fa-pen-to-square"></i> Edit</a></li>
+                <li>
+                  <a class="button" href="/delete/<%=`${snippets[i]._id}`%>"><i class="fa-solid fa-trash"></i> Delete</a>
+                </li>
+                <% } %>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <% } %>
+      </ul>
+    </div>
+    <div class="info-div">
+      <div class="info">
+        <h3>Top languages:</h3>
+        <ol>
+          <%   const languageKeys = Object.keys(topLanguages);
+  for (let i = 0; i < languageKeys.length; i++) {
+    const key = languageKeys[i];
+    const value = topLanguages[key]; %>
+          <li>
+            <p class="snippet-language"><%=`${key}`%></p>
+            <p> <%=` (${value})`%></p>
+          </li>
+          <% } %>
+        </ol>
+      </div>
+    </div>
+  </main>

@@ -1,0 +1,76 @@
+html {
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(37, 37, 37);
+  margin: 0px;
+}
+
+header {
+  background-color: rgb(7, 17, 7);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 40px;
+  height: 80px;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+header a, p, h1, label, h2 {
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  margin: 0px;
+}
+
+header a:hover {
+  color: rgb(204, 204, 204);
+}
+
+header ul {
+  display: flex;
+  gap: 15px;
+}
+
+main {
+  background-color: rgb(61, 61, 61);
+  border-radius: 10px;
+  padding: 15px;
+  margin: 20px auto;
+  width: fit-content;
+}
+
+form {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  text-decoration: none;
+  color: white;
+  background-color: rgb(7, 17, 7);
+  padding: 2px 7px;
+  border-radius: 6px;
+}
+
+.flash {
+  background-color: rgb(172, 223, 170);
+  padding: 0px 10px;
+  color: rgb(105, 105, 105);
+}

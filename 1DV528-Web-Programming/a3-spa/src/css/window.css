@@ -1,0 +1,90 @@
+.window {
+  top: 0px;
+  left: 0px;
+
+  width: 500px;
+  overflow: hidden;
+  height: fit-content;
+
+  background-color: rgba(212, 243, 255, 0.90);
+  backdrop-filter: blur(8px);
+
+  border: 1px solid rgb(152, 210, 228);
+
+  position: absolute;
+
+  border-radius: 6px;
+}
+
+.window-header {
+  height: 40px;
+  background-color: rgb(151, 181, 193, 0.400);
+
+  display: flex;
+
+  padding: 2px 6px;
+}
+
+.window-header-info {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  gap: 8px;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.window-header-info-game {
+  background-image: url("/res/img/memoryGame.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.window-header-info-chat {
+  background-image: url("/res/img/chatApp.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.window-header-info-quiz {
+  background-image: url("/res/img/quizApp.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.window-name {
+  font-size: 22px;
+}
+
+.window-thumbnail,
+.window-close-btn {
+  border-radius: 50%;
+
+  width: 30px;
+  height: 30px;
+}
+
+.window-close-btn {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.window-close-btn:hover {
+  background-color: rgb(171, 199, 223);
+}
+
+.window-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.selectable {
+  user-select: all;
+}
+

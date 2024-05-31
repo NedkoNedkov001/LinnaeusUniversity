@@ -1,0 +1,18 @@
+Exercise 2:
+- Question: Which degree gives the best fit?
+-- Answer: After running the program and taking a look at the MSE (Mean Square Error) for each degree, we see that degree 6 gives the least MSE for the test data. Therefore, I would assume that it is the degree with the best fit.
+
+Exercise 3:
+- Question: Repeated runs will (due to the shuffling) give different results. Are they qualitatively the same? Do they depend on how many observations you put aside for testing? Is the difference between training and testing expected?
+-- Answer: Running the program multiple times with shuffled data will give different results but the difference is negligible. (accuracy stays between 98 and 100%). Putting aside a bigger chunk of the data for testing means less data for training, giving us a less accurate model. Both training and testing have almost the same accuracy as expected, close to 100%.
+
+
+Exercise 5:
+- Question: Difference between C = 1 and C = 10000?
+-- Answer: C = 10,000 gave us a strange looking (spans over unexpected areas), overfit model, while the regularized (C = 1) gave us a simple fit. On the last plot, we can see that the unregularized model performs worse for lower degrees but as the degree increases, it becomes a better choice than the regularized model.
+
+****
+For finding alpha and N, I created a method called find_min_cost in Common. It takes a few minutes to find them and has an upper limit.
+****
+Some of the code is taken from different lecture slides.
+****

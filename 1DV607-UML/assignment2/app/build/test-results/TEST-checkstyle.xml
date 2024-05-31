@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite package="org.checkstyle" time="0" tests="22" errors="0" name="checkstyle">
+<testcase time="0" name="controller/App.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="controller/System.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Contract.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Item.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Member.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Register.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/Time.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/TimeChangedObserver.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/constants/Variables.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="model/enums/Category.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/ConsoleUi.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/EnglishUi.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/SwedishUi.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/constants/EnglishMenuConstants.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/constants/SwedishMenuConstants.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/enums/ContractCreateOption.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/enums/ContractMenuOption.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/enums/ItemEditMenuOption.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/enums/ItemMenuOption.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/enums/MainMenuOption.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/enums/MemberMenuOption.java" classname="CheckStyle Issues">
+</testcase><testcase time="0" name="view/enums/TimeMenuOption.java" classname="CheckStyle Issues">
+</testcase></testsuite>

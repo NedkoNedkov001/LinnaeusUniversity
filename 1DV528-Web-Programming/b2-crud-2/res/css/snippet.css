@@ -1,0 +1,19 @@
+.snippet {
+  width: 600px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+.snippet-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#snippet-form {
+  width: 600px;
+}

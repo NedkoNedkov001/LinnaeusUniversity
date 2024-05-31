@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css" />
+    <link rel="stylesheet" href="/public/css/header.css" />
+    <link rel="stylesheet" href="/public/css/form.css" />
+    <link rel="stylesheet" href="/public/css/snippet.css" />
+    <script
+      src="https://kit.fontawesome.com/a3d546e7b4.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="left-side">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/add">Add Snippet</a></li>
+        </ul>
+      </div>
+      <div class="right-side">
+        <ul>
+          <li><a href="/">Login</a></li>
+          <li><span>/</span></li>
+          <li><a href="/add">Register</a></li>
+        </ul>
+      </div>
+    </header>
+    <main id="snippet-add">
+      <form action="add" method="post">
+        <h2>Add Snippet</h2>
+        <div class="input-field">
+          <label for="snippetName">Name:</label>
+          <input type="text" id="snippetName" name="snippetName" maxlength="100" required />
+        </div>
+        <div class="input-field">
+          <label for="snippetLanguage">Language:</label>
+          <input
+            type="text"
+            id="snippetLanguage"
+            name="snippetLanguage"
+            maxlength="24"
+            required
+          />
+        </div>
+
+        <div class="input-field">
+          <label for="snippetDescription">Description:</label>
+          <textarea name="snippetDescription" id="snippetDescription" cols="30" rows="3" maxlength="300" ></textarea>
+        </div>
+
+        <div class="input-field">
+          <label for="snippet">Snippet:</label>
+          <textarea name="snippet" id="snippet" cols="30" rows="10" required></textarea>
+        </div>
+
+        <button class="button" type="submit">Submit</button>
+      </form>
+    </main>
+    <footer></footer>
+  </body>
+</html>

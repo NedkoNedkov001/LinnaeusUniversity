@@ -1,0 +1,39 @@
+#credit-card-form {
+    background-color: wheat;
+    border-radius: 20px;
+    padding: 24px;
+}
+
+#credit-card-form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+#credit-card-form label {
+    font-size: 24px;
+}
+
+#credit-card-form input {
+    height: 32px;
+    line-height: 32px;
+    font-size: 24px;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+#card-type-div #card-type-options-div {
+    display: flex;
+    flex-direction: row;
+}
+
+#submit-button-div button {
+    height: 100px;
+    border-radius: 16px;
+    font-size: 24px;
+}
+
+#submit-button-div button:hover {
+    cursor: pointer;
+    background-color: aliceblue;
+}

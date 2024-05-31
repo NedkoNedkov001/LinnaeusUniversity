@@ -1,0 +1,9 @@
+.flash-message {
+    background-color: var(--color-green);
+    border: 2px solid var(--color-text);
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  padding: 30px 50px;
+  border-radius: 12px;
+}

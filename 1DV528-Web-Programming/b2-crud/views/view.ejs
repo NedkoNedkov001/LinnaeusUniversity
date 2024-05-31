@@ -1,0 +1,28 @@
+  <main id="main">
+      <div class="snippet">
+        <div class="snippet-header">
+          <h2><%=`${snippet.name}`%></h2>
+          <div class="snippet-header-details">
+            <p class="snippet-language">
+              <i class="fa-solid fa-code"></i> <%=`${snippet.lang}`%>
+            </p>
+            <p><i class="fa-regular fa-user"></i> <%=`${snippet.author}`%></p>
+            <p><i class="fa-regular fa-clock"></i> <%=`${snippet.createdOn.year}/${snippet.createdOn.month}/${snippet.createdOn.day}`%></p>
+          </div>
+        </div>
+        <p>
+          <%=`${snippet.desc}`%>
+        </p>
+        <pre><code class="<%=`${snippet.lang}`%>"><%=`${snippet.snippetStr}`%></code></pre>
+        <div class="snippet-actions">
+          <ul>
+            <% if (snippet.author === user.username) { %>
+            <li><a class="button" href="/edit/<%=`${snippet._id}`%>"><i class="fa-regular fa-pen-to-square"></i> Edit</a></li>
+            <li>
+              <a class="button" href="/delete/<%=`${snippet._id}`%>"><i class="fa-solid fa-trash"></i> Delete</a>
+            </li>
+            <% } %>
+          </ul>
+        </div>
+      </div>
+  </main>

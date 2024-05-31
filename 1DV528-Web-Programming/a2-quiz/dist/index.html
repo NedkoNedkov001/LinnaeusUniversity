@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <script type="module" crossorigin src="/assets/index-WzW_teIZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-TzF_tqnH.css">
+  </head>
+  <body>
+    <div id="welcome-div" class="center-div">
+      <div class="label-div">Enter your username</div>
+      <div class="answer-div">
+        <input type="text" placeholder="Username" id="username-input" />
+      </div>
+    </div>
+
+    <div id="quiz-div" class="center-div">
+      <div class="label-div" id="question-div">
+        Insert your question sentence here.
+      </div>
+      <div class="answer-div">
+        <div id="input-question-div">
+          <input type="text" id="answer-input" />
+        </div>
+        <div id="list-question-div">
+          <ul>
+            <li>
+              <button class="answer-button" value="alt1">Choice 1</button>
+            </li>
+            <li>
+              <button class="answer-button" value="alt2">Choice 2</button>
+            </li>
+            <li>
+              <button class="answer-button" value="alt3">Choice 3</button>
+            </li>
+            <li>
+              <button class="answer-button" value="alt4">Choice 4</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="progress-div" class="center-div">
+      <div id="progress-indicator"></div>
+    </div>
+
+    <div id="result-div" class="center-div">
+      <h1 id="result-status">Win!</h1>
+      <p id="result-text">Username (1m23s)</p>
+    </div>
+
+    <div class="top-right-div">
+      <div id="scoreboard-div">
+        <ol>
+          <li class="scoreboard-item"></li>
+          <li class="scoreboard-item"></li>
+          <li class="scoreboard-item"></li>
+          <li class="scoreboard-item"></li>
+          <li class="scoreboard-item"></li>
+        </ol>
+      </div>
+
+      <div id="my-score-div">My Score</div>
+    </div>
+  </body>
+</html>

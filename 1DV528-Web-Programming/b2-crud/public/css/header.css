@@ -1,0 +1,34 @@
+#header ul li a {
+  position: relative;
+}
+
+#header ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: white;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.5s;
+}
+
+#header ul li a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+#header {
+  background-color: var(--color-header);
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 64px;
+}
+
+.left-side, .right-side {
+  display: flex;
+  align-items: center;
+}

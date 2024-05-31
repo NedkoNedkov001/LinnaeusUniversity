@@ -1,0 +1,25 @@
+    <header>
+      <nav>
+        <ul>
+          <li><a href="/snippet">Snippets</a></li>
+          <li><a href="/snippet/add">Add</a></li>
+        </ul>
+      </nav>
+      <nav>
+        <ul>
+          <% if (user.username) { %>
+          <li>
+            <p><%= user.username %></p>
+          </li>
+          <li>
+            <a href="/user/signout">Logout</a>
+          </li>
+          <% } else { %>
+          <li><a href="/user/signin">Login</a></li>
+          <li><a href="/user/signup">Register</a></li>
+          <% } %>
+
+        </ul>
+      </nav>
+    </header>
+    <%- include('flash') -%>

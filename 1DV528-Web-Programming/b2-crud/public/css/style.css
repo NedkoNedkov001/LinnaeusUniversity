@@ -1,0 +1,94 @@
+:root {
+  --color-background: rgb(13, 17, 23);
+  --color-header: rgb(1, 4, 9);
+  --color-highlight: rgb(23, 27, 32);
+  --color-text: rgb(255, 255, 255);
+  --color-border: rgb(48, 54, 61);
+  --color-hyperlink: rgb(47, 129, 247);
+  --color-green: rgb(76, 175, 80);
+}
+
+body {
+  background-color: rgb(13, 17, 23);
+  margin: 0px;
+}
+
+a,
+p,
+h1,
+h2,
+h3,
+span,
+li,
+label,
+button {
+  color: var(--color-text);
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 6px 0px;
+}
+
+ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+ul li {
+  display: flex;
+  align-items: center;
+}
+
+ol li p {
+  display: inline;
+}
+
+.hljs {
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  background-color: var(--color-background);
+}
+
+.button {
+  background-color: transparent;
+  border: 1px solid var(--color-border);
+  width: fit-content;
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: var(--color-text);
+}
+
+.button:hover {
+  background-color: var(--color-border);
+  cursor: pointer;
+}
+
+textarea {
+  resize: vertical;
+}
+
+html::-webkit-scrollbar {
+  width: 6px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-green);
+  border-radius: 6px;
+}
+
+html::-webkit-scrollbar-track {
+  background-color: var(--color-highlight);
+}

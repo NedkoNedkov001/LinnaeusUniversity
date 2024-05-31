@@ -1,0 +1,51 @@
+.application-icon-weather {
+  background-image: url("/img/weatherIcon.png");
+}
+
+.application-weather-temperature {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.application-weather-temperature-feel {
+  font-style: italic;
+}
+
+.application-weather-extras {
+  background-color: rgba(61, 78, 90, 0.137);
+  border-radius: 6px;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  padding: 10px;
+
+  font-size: 22px;
+}
+
+.application-weather-icon {
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100px;
+  width: 100px;
+}
+
+.application-weather-icon-clouds {
+  background-image: url("/img/weatherCloudsIcon.png");
+}
+
+.application-weather-icon-clear {
+  background-image: url("/img/weatherClearIcon.png");
+}
+.application-weather-icon-atmosphere {
+  background-image: url("/img/weatherAtmosphereIcon.png");
+}
+.application-weather-icon-snow {
+  background-image: url("/img/weatherSnowIcon.png");
+}
+.application-weather-icon-rain {
+  background-image: url("/img/weatherRainIcon.png");
+}
+.application-weather-icon-thunderstorm {
+  background-image: url("/img/weatherThunderstormIcon.png");
+}

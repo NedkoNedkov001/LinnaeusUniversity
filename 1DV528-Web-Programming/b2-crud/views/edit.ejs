@@ -1,0 +1,26 @@
+  <main id="snippet-add">
+    <form action="/edit" method="post">
+      <input type="hidden" name="id" value="<%=`${snippet._id}`%>" />
+      <h2>Add Snippet</h2>
+      <div class="input-field">
+        <label for="snippetName">Name:</label>
+        <input value='<%=`${snippet.name}`%>' placeholder='<%=`${snippet.name}`%>' type="text" id="snippetName" name="snippetName" maxlength="100" required />
+      </div>
+      <div class="input-field">
+        <label for="snippetLanguage">Language:</label>
+        <input value='<%=`${snippet.lang}`%>' placeholder='<%=`${snippet.lang}`%>'  type="text" id="snippetLanguage" name="snippetLanguage" maxlength="24" required />
+      </div>
+
+      <div class="input-field">
+        <label for="snippetDescription">Description:</label>
+        <textarea placeholder='Description' name="snippetDescription" id="snippetDescription" cols="30" rows="3" maxlength="300" ><%=`${snippet.desc}`%></textarea>
+      </div>
+
+      <div class="input-field">
+        <label for="snippet">Snippet:</label>
+        <textarea name="snippet" id="snippet" placeholder="Enter your code here..." cols="30" rows="10" required><%=`${snippet.snippetStr}`%></textarea>
+      </div>
+
+    <button class="button" type="submit">Submit</button>
+    </form>
+  </main>

@@ -1,0 +1,15 @@
+<ul class="snippet-list">
+  <% for (let i = 0; i < snippets.length; i++) { %>
+  <li>
+    <div class="snippet">
+      <div class="snippet-buttons">
+        <a class="button" href="/snippet/edit/<%=`${snippets[i]._id}`%>">Edit</a>
+        <a class="button" href="/snippet/delete/<%=`${snippets[i]._id}`%>">Delete</a>
+      </div>
+      <p>Added by: <%=`${snippets[i].author}`%></p>
+      <p>Language: <%=`${snippets[i].progLang}`%></p>
+        <pre><code class="<%=`${snippets[i].progLang}`%>"><%=`${snippets[i].codeStr}`%></code></pre>
+    </div>
+  </li>
+  <% } %>
+</ul>
